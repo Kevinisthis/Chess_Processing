@@ -1,11 +1,11 @@
-class SQUARE {
-  char letter;
-  int number;
+class Grid {
+Square[][] board;
+public Grid() {
+  board = new Square[8][8];
+  for(int row = 0; row < 8; row++){
+     for(int col = 0; col < 8; col++){
+        board[row][col]  = new Square(row, col);
+      }
+    }
+  }
 }
-
-void GRID() {
-  rect (80, 0, 720, 640);
-}
-
-public letter(int x, int y) {
-  letter = 

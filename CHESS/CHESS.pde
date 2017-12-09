@@ -2,8 +2,12 @@
 
 void setup() {
   size(800, 750);
-  GRID();
+  Grid grid = new Grid();
 }
+
+
+
+
 
 /*
 Things to do
