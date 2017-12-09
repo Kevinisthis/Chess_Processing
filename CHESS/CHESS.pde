@@ -2,7 +2,7 @@
 
 void setup() {
   size(800, 750);
-  background(0);
+  GRID();
 }
 
 /*
