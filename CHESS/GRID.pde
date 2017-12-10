@@ -7,6 +7,11 @@ class Grid {
         board[row][col]  = new Square(row, col);
         drawGrid(row, col);
         createPawn();
+        createQueen();
+        createBishop();
+        createKnight();
+        createKing();
+        createRook();
       }
     }
   }

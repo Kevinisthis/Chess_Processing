@@ -1,8 +1,8 @@
-class Pawn {}
+class Pawn {
+}
 
 //creates the pawns
 void createPawn() {
-  int row = 2;
   for(int col = 0; col < 8; col++) {
     drawPawn(col);
   }
