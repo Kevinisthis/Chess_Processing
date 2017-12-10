@@ -15,3 +15,18 @@ void drawPawn(int row) {
   rect(x1, 80, 80, 80);
   rect(x1, 480, 80, 80);
 }
+
+
+//needs fixing
+/*
+void movePawn() {
+  if (mousePressed(rowx colx)) {
+    //select
+    //display available moves
+    if (mouseReleased(row, col) && legal move) {
+      fill(blue);
+      rect(row, col);
+    }
+  }
+}
+*/
