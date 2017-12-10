@@ -6,7 +6,6 @@ class Grid {
       for(int col = 0; col < 8; col++){
         board[row][col]  = new Square(row, col);
         drawGrid(row, col);
-        //fillGrid(row, col);
       }
     }
   }
@@ -17,11 +16,15 @@ class Grid {
 void drawGrid(int row, int col) {
   int x1 = 80+ row * 80;
   int y1 = col * 80;
+  fillGrid(row, col);
   rect(x1, y1, 80, 80);
 }
 
 void fillGrid(int row, int col) {
-  if(col == 1) {
+  if ((row % 2== 0 && col % 2 == 0) || (row % 2 == 1 && col % 2 == 1)) {
+    fill(255);
+  }
+  else {
     fill(0);
   }
 }
