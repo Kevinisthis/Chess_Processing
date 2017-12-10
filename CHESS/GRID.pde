@@ -6,6 +6,7 @@ class Grid {
       for(int col = 0; col < 8; col++){
         board[row][col]  = new Square(row, col);
         drawGrid(row, col);
+        createPawn();
       }
     }
   }
