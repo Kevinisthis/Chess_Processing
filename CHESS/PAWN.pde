@@ -16,7 +16,10 @@ void drawPawn(int row) {
   rect(x1, 480, 80, 80);
 }
 
-
+if mousePressed() {
+  if 
+}
+  
 //needs fixing
 /*
 void movePawn() {
